@@ -4,8 +4,6 @@
 ### EXPERIMENT 1: INTRODUCTION TO PYTHON PROGRAMMING
 **Submitted By:** James, Kim Ezekiel G. | 2ECE-A | 8/29/2026
 
----
-
 The content of this repository contains the Programming Assignment 1 for our course "Advance Computer Programming" this S.Y. 2025-2026. This project covers three python problems pertaining to Module 1 - Base Computing with Python.
 
 ## Objectives
