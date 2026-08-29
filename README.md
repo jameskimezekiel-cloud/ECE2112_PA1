@@ -26,10 +26,8 @@ The following function and methods were used in this problem:
 - `len()` — a string method used to count the total amount of characters
 
   Example:
-  ```python
   w = "Advanced Programming"
   len(w)  # --> 20
-  ```
 
 - `text[index of first element : number of characters : increment]` — a string method to slice a given string into parts
   - index of first element — the index where the slicing begins
@@ -37,16 +35,12 @@ The following function and methods were used in this problem:
   - increment — the number of index to move between characters
 
   Example:
-  ```python
   w[0:20:3]  # --> "AaePgmn"
-  ```
 
 - `text[index]` — a string method used to get the value of a specific index
 
   Example:
-  ```python
   w[0]  # --> "A"
-  ```
 
 These methods are used to create a single function that rotates the word while keeping the remaining characters in order:
 
@@ -82,16 +76,14 @@ The following function and methods were used in this problem:
 - `.lower()` — a string method used to change all characters into lowercase
 
   Example:
-  ```python
   w.lower()  # --> "advanced programming"
-  ```
+
 
 - `.replace("", "")` — a string method used to change a selected character to another character
 
   Example:
-  ```python
   w.replace("m", "*")  # --> "Advanced progra**ing"
-  ```
+
 
 These methods are used to create a single function that generates a username by combining the first and last name, separated by a period, in all lowercase characters:
 
@@ -132,23 +124,20 @@ The following function and methods were used in this problem:
   - `last` — gets the last index (-1)
 
   Example:
-  ```python
   z = ["1", "2", "3", "4"]
   first, *middle, last = z
   # first  --> "1"
   # middle --> ["2", "3"]
   # last   --> "4"
-  ```
 
 For manually inputting list items:
 - `.append()` — used to add elements into the list
 
   Example:
-  ```python
   x = ["apple", "banana"]
   x.append("cherry")
   x  # --> ["apple", "banana", "cherry"]
-  ```
+
 
 **A.)** This method is used to create a single function that interchanges the position of the first and last index while the remaining elements stay the same:
 
