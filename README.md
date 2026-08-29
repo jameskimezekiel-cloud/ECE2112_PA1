@@ -204,7 +204,7 @@ Enter an item: Grapes
 
 ---
 
-To view the program for PA1: download [ECE2112_PA1]([https://github.com/jameskimezekiel-cloud/ECE2112_PA1/edit/main/README.md]), open on Jupyter Notebook, and run all cells.
+To view the program for PA1: download [ECE2112_PA1](https://github.com/jameskimezekiel-cloud/ECE2112_PA1/blob/main/PA1%20.ipynb), open on Jupyter Notebook, and run all cells.
 
 ## README file Version History
 - August 28, 2026 - Initial README Content uploaded
