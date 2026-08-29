@@ -124,11 +124,11 @@ The following function and methods were used in this problem:
   - `last` — gets the last index (-1)
 
   Example:
-  z = ["1", "2", "3", "4"]
-  first, *middle, last = z
-  # first  --> "1"
-  # middle --> ["2", "3"]
-  # last   --> "4"
+  <br> z = ["1", "2", "3", "4"]
+  <br> first, *middle, last = z
+  <br> first  --> "1"
+  <br> middle --> ["2", "3"]
+  <br> last   --> "4"
 
 For manually inputting list items:
 - `.append()` — used to add elements into the list
