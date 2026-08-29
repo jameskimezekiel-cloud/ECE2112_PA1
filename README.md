@@ -1,4 +1,3 @@
-# ECE2112_PA1
 # PA1_ECE2112_JAMES, KE
 
 **Submitted by:** James, Kim Ezekiel G. | 2ECE-A | 8/29/2026
