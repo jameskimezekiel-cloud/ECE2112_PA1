@@ -6,7 +6,7 @@
 
 ---
 
-The content of this repository contains the Programming Assignment 1 for our course "Advance Computer Programming" this S.Y. 2026-2027. This project covers three python problems pertaining to Module 1 - Base Computing with Python.
+The content of this repository contains the Programming Assignment 1 for our course "Advance Computer Programming" this S.Y. 2025-2026. This project covers three python problems pertaining to Module 1 - Base Computing with Python.
 
 ## Objectives
 ---
@@ -24,8 +24,9 @@ Create a function named `rotate_word()` that accepts a non-empty string. Move th
 
 **Function format:** `rotate_word(text)`
 
-### Methods Used
-- **`len()`** — a string method used to count the total amount of characters
+The following function and methods were used in this problem:
+
+- `len()` — a string method used to count the total amount of characters
 
   Example:
   ```python
@@ -33,25 +34,25 @@ Create a function named `rotate_word()` that accepts a non-empty string. Move th
   len(w)  # --> 20
   ```
 
-- **`text[index of first element : number of characters : increment]`** — a string method to slice a given string into parts
-  - *index of first element* — the index where the slicing begins
-  - *number of characters* — the index where the slicing stops
-  - *increment* — the number of indices to move between characters
+- `text[index of first element : number of characters : increment]` — a string method to slice a given string into parts
+  - index of first element — the index where the slicing begins
+  - number of characters — the index where the slicing stops
+  - increment — the number of index to move between characters
 
   Example:
   ```python
   w[0:20:3]  # --> "AaePgmn"
   ```
 
-- **`text[index]`** — a string method used to get the value of a specific index
+- `text[index]` — a string method used to get the value of a specific index
 
   Example:
   ```python
   w[0]  # --> "A"
   ```
 
-### Implementation
-This method is used to create a single function that rotates the word while keeping the remaining characters in order:
+These methods are used to create a single function that rotates the word while keeping the remaining characters in order:
+
 ```python
 def rotate_word(text):
     s = text[1:len(text):1] + text[0]
@@ -61,7 +62,7 @@ text = str(input("Enter a word: "))
 rotate_word(text)
 ```
 
-### Examples
+**Examples:**
 ```python
 rotate_word("python")  # --> "ythonp"
 rotate_word("logic")   # --> "ogicl"
@@ -77,27 +78,28 @@ Create a function named `make_username()` that accepts two strings: first name a
 1. convert all letters to lowercase;
 2. remove all spaces from the first name;
 3. remove all spaces from the last name; and
-4. join the processed first and last names using one period (`.`).
+4. join the processed first and last names using one period (.).
 
 **Function format:** `make_username(first_name, last_name)`
 
-### Methods Used
-- **`.lower()`** — a string method used to change all characters into lowercase
+The following function and methods were used in this problem:
+
+- `.lower()` — a string method used to change all characters into lowercase
 
   Example:
   ```python
   w.lower()  # --> "advanced programming"
   ```
 
-- **`.replace("", "")`** — a string method used to change a selected character to another character
+- `.replace("", "")` — a string method used to change a selected character to another character
 
   Example:
   ```python
   w.replace("m", "*")  # --> "Advanced progra**ing"
   ```
 
-### Implementation
-This method is used to create a single function that generates a username by combining the first and last name, separated by a period, in all lowercase characters:
+These methods are used to create a single function that generates a username by combining the first and last name, separated by a period, in all lowercase characters:
+
 ```python
 def make_username(first_name, last_name):
     f_n = first_name.lower().replace(" ", "")
@@ -109,11 +111,11 @@ last_name = str(input("Enter your Last Name: "))
 print(make_username(first_name, last_name))
 ```
 
-### Examples
+**Examples:**
 ```python
-make_username("Ada", "Lovelace")      # --> "ada.lovelace"
-make_username("Alan", "Turing")       # --> "alan.turing"
-make_username("Ana Maria", "De Leon") # --> "anamaria.deleon"
+make_username("Ada", "Lovelace")        # --> "ada.lovelace"
+make_username("Alan", "Turing")         # --> "alan.turing"
+make_username("Ana Maria", "De Leon")   # --> "anamaria.deleon"
 ```
 
 ---
@@ -129,11 +131,12 @@ Using these variables, return a new list in which the first and last elements ha
 
 **Function format:** `swap_bookends(items)`
 
-### Methods Used
-- **Extended Sequence Unpacking** — `first, *middle, last = items`
-  - *first* — gets index zero (0)
-  - *\*middle* — combines all intermediate values
-  - *last* — gets the last index (-1)
+The following function and methods were used in this problem:
+
+- Extended Sequence Unpacking: `first, *middle, last = items`
+  - `first` — gets index zero (0)
+  - `*middle` — combines all intermediate values
+  - `last` — gets the last index (-1)
 
   Example:
   ```python
@@ -145,18 +148,17 @@ Using these variables, return a new list in which the first and last elements ha
   ```
 
 For manually inputting list items:
-- **`.append()`** — used to add elements into the list
+- `.append()` — used to add elements into the list
 
   Example:
   ```python
   x = ["apple", "banana"]
   x.append("cherry")
-  # x --> ["apple", "banana", "cherry"]
+  x  # --> ["apple", "banana", "cherry"]
   ```
 
-### Implementation
-
 **A.)** This method is used to create a single function that interchanges the position of the first and last index while the remaining elements stay the same:
+
 ```python
 def swap_bookends(items):
     first, *middle, last = items
@@ -167,14 +169,15 @@ print(swap_bookends(["red", "green", "blue"]))
 print(swap_bookends([8, 3]))
 ```
 
-### Examples
+**Examples:**
 ```python
 swap_bookends([1, 2, 3, 4, 5, 6])       # --> [6, 2, 3, 4, 5, 1]
 swap_bookends(["red", "green", "blue"]) # --> ["blue", "green", "red"]
 swap_bookends([8, 3])                   # --> [3, 8]
 ```
 
-**B.)** Code that accepts string values and prints a bookend swap:
+**B.)** Code that accepts string values and prints as a bookend swap:
+
 ```python
 def swap_bookends(items):
     first, *middle, last = items
@@ -191,7 +194,7 @@ while k < num:
 print(swap_bookends(j))
 ```
 
-### Example
+**Example:**
 ```
 Enter number of item: 4
 Enter an item: Banana
@@ -205,6 +208,6 @@ Enter an item: Grapes
 
 To view the program for PA1: download [ECE2112_PA1](https://github.com/kathleenhazelhulipas-cloud/ECE2112_Hulipas_PA1/blob/main/PA1.ipynb), open on Jupyter Notebook, and run all cells.
 
-## README File Version History
-- **August 28, 2026** – Initial README content uploaded
-- **August 29, 2026** – Included PA1 program to the README file
+## README file Version History
+- August 28, 2026 - Initial README Content uploaded
+- August 29, 2026 - Included PA1 Program to the README file
