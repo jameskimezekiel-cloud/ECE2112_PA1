@@ -14,7 +14,6 @@ The content of this repository contains the Programming Assignment 1 for our cou
 3. apply sequence unpacking to manipulate the elements of a list; and
 4. construct simple Python functions that return a specified result.
 
----
 
 ## A. Word Rotation Problem
 ---
@@ -68,8 +67,6 @@ rotate_word("Code")    # --> "odeC"
 rotate_word("A")       # --> "A"
 ```
 
----
-
 ## B. Username Builder Problem
 ---
 Create a function named `make_username()` that accepts two strings: first name and last name. The function must:
@@ -115,8 +112,6 @@ make_username("Ada", "Lovelace")        # --> "ada.lovelace"
 make_username("Alan", "Turing")         # --> "alan.turing"
 make_username("Ana Maria", "De Leon")   # --> "anamaria.deleon"
 ```
-
----
 
 ## C. Bookend Swap Problem
 ---
