@@ -124,8 +124,8 @@ The following function and methods were used in this problem:
   - `last` — gets the last index (-1)
 
   Example:
-  <br> z = ["1", "2", "3", "4"]
-  <br> first, *middle, last = z
+  z = ["1", "2", "3", "4"]
+  first, *middle, last = z
   <br> first  --> "1"
   <br> middle --> ["2", "3"]
   <br> last   --> "4"
