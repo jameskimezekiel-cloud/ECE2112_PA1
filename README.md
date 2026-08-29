@@ -6,7 +6,7 @@
 
 ---
 
-The content of this repository contains the Programming Assignment 1 for our course "Advance Computer Programming" this S.Y. 2025-2026. This project covers three python problems pertaining to Module 1 - Base Computing with Python.
+The content of this repository contains the Programming Assignment 1 for our course "Advance Computer Programming" this S.Y. 2026-2027. This project covers three python problems pertaining to Module 1 - Base Computing with Python.
 
 ## Objectives
 ---
