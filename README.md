@@ -193,3 +193,4 @@ To view the program for PA1: download [ECE2112_PA1](https://github.com/jameskime
 ## README file Version History
 - August 28, 2026 - Initial README Content uploaded
 - August 29, 2026 - Included PA1 Program to the README file
+- September 1, 2026 - Minor format adjustment in PA1 
